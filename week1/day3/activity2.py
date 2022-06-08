@@ -27,10 +27,13 @@ print("Change the capital cities to national language")
 # countries["Belgium"] = "French"
 # countries["Portugal"] = "Portuguese"
 
-i=0
-for c in countries:
-    countries[c] = languages[i]
-    i+=1
+# i=0
+# for c in countries:
+#     countries[c] = languages[i]
+#     i+=1
+
+for a,b in zip(countries.keys(),languages):
+    countries[a] = b
 
 for i in countries.items():
     print(i)
