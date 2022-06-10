@@ -1,0 +1,41 @@
+body{
+    color:red;
+}
+
+.desktop, .mobile{
+    display: none;
+}
+
+/* body *{
+    border-style: solid;
+    border-color: black;
+} */
+/* @media (max-width: 500px){
+    body {
+        color:blue;
+    }
+} */
+    
+@media (orientation: portrait) { 
+.mobile{
+        display: inline-block;
+    }
+    .title { 
+        color:yellow; 
+        background-color: black; 
+        text-align: center; 
+        padding: 5%; 
+    } 
+}
+
+@media (orientation: landscape) { 
+    .desktop{
+        display: inline-block;
+    }
+    .subtitle { 
+        color:green; 
+        background-color: orange; 
+        text-align: center; 
+        padding: 5%; 
+    } 
+}

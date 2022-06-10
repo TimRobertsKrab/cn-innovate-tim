@@ -2,8 +2,9 @@
     display: flex;
     min-height: 100vh;
     flex-flow: row wrap;
+    flex-wrap: wrap-reverse;
 }
 
-.box1{
+/* .box1{
     order: 1;
-}
+} */
