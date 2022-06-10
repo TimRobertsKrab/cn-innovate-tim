@@ -1,0 +1,28 @@
+.portrait, .landscape, .moon,.sun{
+    display: none;
+}
+
+@media (orientation: portrait) {
+    body{
+        background-color: black;
+    }
+    header{
+        color: cornsilk;
+    }
+    .portrait, .moon{
+        display: inline-block;
+        color: cornsilk;
+    }
+}
+
+@media (orientation: landscape) {
+    body{
+        background-color:cornsilk;
+    }
+    header{
+        color: black;
+    }
+    .landscape, .sun{
+        display: inline-block;
+    }
+}
