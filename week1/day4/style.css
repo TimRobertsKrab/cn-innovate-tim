@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&display=swap');
+
+body {
+    background-color: darkgreen;
+    font-family: "Cairo", sans-serif;
+}
+
+.code{
+    color:coral;
+}
+
+p {
+    color: rgb(244, 179, 179);
+    font-size: 30px;
+    text-align: center;
+}
+
+#block span {
+    color: blue;
+}
+
+/*
+parent>directchild{
+    stuff
+}
+
+parent descendant{
+    stuff
+*/
+
+a:hover {
+    color: chartreuse;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+
+}
+
+#one {
+    background-color: red;
+    width: 32%;
+}
+
+#two {
+    background-color: blue;
+    width: 32%;
+}
+
+#three {
+    background-color: green;
+    width: 32%;
+}

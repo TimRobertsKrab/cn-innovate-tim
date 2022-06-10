@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-flow: row wrap;
+}
+
+.box1{
+    order: 1;
+}
