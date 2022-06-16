@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>ToDo Manager</h1>
+<br>
+<div>
+    <div id="task-box" class="egg">
+    <h2>New Tasks:</h2>
+    <ul>
+        {% for t in task_list %}
+        <li>{{t}}</li>
+        {% endfor %}
+    </ul>
+    </div>
+    <button onclick="taskHider()">Show/Hide tasks</button>
+    <button onclick="darkMode()">Dark Mode</button>
+    <form action="/todos" method="POST">
+        <input type="text" name="task-input" id="task-input">
+        <input type="submit" value="Add Task">
+    </form> 
+</div>
+{% endblock %}

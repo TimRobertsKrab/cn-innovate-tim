@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1> Hello there</h1>
+<ol>
+    {% if name %}
+    <li> {{name}}</li>
+    {% else %}
+    <li>No one</li>
+    {% endif %}
+    <li>Here</li>
+</ol>
+{% endblock %}

@@ -1,0 +1,9 @@
+.content{
+    border-style:solid;
+    border-radius: 25px;
+    background-color: blanchedalmond;
+}
+
+.task-box{
+    display: none;
+}

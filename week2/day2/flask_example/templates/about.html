@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock %}
+{% block content %}
+<h1>About page</h1>
+{% for c in content %}
+<div class="content">
+    <p>{{c}}</p>
+</div>
+{% endfor %}
+{% endblock %}
