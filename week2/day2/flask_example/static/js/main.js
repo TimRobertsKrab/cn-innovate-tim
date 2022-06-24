@@ -9,8 +9,8 @@ function taskHider(){
 
 function darkMode(){
     let element = document.body
-    element.classList.toggle("bg-danger")
-    element.classList.toggle("bg-dark")
+    element.classList.toggle("body-main")
+    element.classList.toggle("dark-mode")
 }
 
 function displayDate(){
